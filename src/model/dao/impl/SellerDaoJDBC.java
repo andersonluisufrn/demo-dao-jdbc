@@ -125,7 +125,7 @@ public class SellerDaoJDBC implements SellerDao {
 
 				Seller obj = instantiateSeller(rs, dep);
 				list.add(obj);
-			}
+			} 
 			return list;
 		}
 		catch (SQLException e) {
